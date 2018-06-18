@@ -70,7 +70,7 @@ div.productsAsideCategorys{
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 11;
 }
 div.productsAsideCategorys div.row{
     margin: 20px 80px 0px 80px;
@@ -100,4 +100,9 @@ div.eachCategory span{
 }
 div.eachCategory:hover{
     background-color: white;
+}
+img.catear {
+    position: absolute;
+    height: 15px;
+    display: none;
 }
